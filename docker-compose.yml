@@ -1,0 +1,10 @@
+version: '2.1'
+services:
+  remote-work:
+    image: remote-work
+    volumes:
+    - /home/g/dev/poc/remote-work:/app
+    ports:
+    - 8080:8080
+    - 5005:5005
+
